@@ -1,5 +1,7 @@
 use std::io::{self, Write};
 
+mod vecotr;
+
 fn main() {
 
     print!("Please enter a number 1 or 2: ");
@@ -26,4 +28,7 @@ fn main() {
             println!("{number}");
         }
     }
+
+    vecotr::pv();   
+
 }

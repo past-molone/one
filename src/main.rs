@@ -1,6 +1,6 @@
 use std::io::{self, Write};
 
-mod vecotr;
+mod vector;
 fn main() {
 
     println!("Enter 1 for ascending numerical order or 2 for vice versa.");
@@ -32,6 +32,6 @@ fn main() {
         println!("Ey bro, you don't understand what I'm saying huh.");
     }
 
-    vecotr::pv();   
+    vector::pv();   
 
 }

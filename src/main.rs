@@ -1,6 +1,6 @@
 use std::io::{self, Write};
 
-mod vector;
+mod sidekick;
 fn main() {
 
     println!("Enter 1 for ascending numerical order or 2 for the opposite.");
@@ -32,7 +32,13 @@ fn main() {
         println!("Ey bro, do you understand what I'm saying huh.");
     }
 
-    vector::pv();   
-    vector::ps();
+    sidekick::pv();   
+
+    // let mut b = String::new();
+    // io::stdin()
+    //     .read_line(&mut b)
+    //     .expect("");
+
+    // sidekick::ps(&mut b);
 
 }

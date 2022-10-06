@@ -3,7 +3,7 @@ use std::io::{self, Write};
 mod vector;
 fn main() {
 
-    println!("Enter 1 for ascending numerical order or 2 for vice versa.");
+    println!("Enter 1 for ascending numerical order or 2 for the opposite.");
     print!("Please enter a number 1 or 2: ");
 
     io::stdout().flush().unwrap();
@@ -29,9 +29,10 @@ fn main() {
         }
     }
     else{
-        println!("Ey bro, you don't understand what I'm saying huh.");
+        println!("Ey bro, do you understand what I'm saying huh.");
     }
 
     vector::pv();   
+    vector::ps();
 
 }
